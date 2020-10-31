@@ -10,3 +10,9 @@ body{
     font: 14px Montserrat;
     color: #686868;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .panel{
+        display: none;
+    }
+}

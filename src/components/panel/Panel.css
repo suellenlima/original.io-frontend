@@ -11,3 +11,20 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.signIn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.signOut{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sign{
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}

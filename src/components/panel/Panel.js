@@ -7,14 +7,10 @@ import Bag from './../bag/Bag';
 export default function Panel(){
     return (
         <div class="bar">
-            <div>
-                <a>
-                    <span> Entrar </span>
-                </a>
+            <div class="sign">
+                <a class="signIn"> Entrar </a>
                 <span>|</span>
-                <a>
-                    <span> Cadastrar-se </span>
-                </a>
+                <a class="signOut"> Cadastrar-se </a>
             </div>
             <Menu/>
             <Search/>
