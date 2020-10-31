@@ -4,7 +4,7 @@ import bagIcon from './../../assets/images/bag.png'
 
 export default function Bag(){
     return (
-        <div>
+        <div class="bag">
             <img src={bagIcon}/>
         </div>
     );

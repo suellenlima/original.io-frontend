@@ -4,7 +4,7 @@ import seachIcon from './../../assets/images/search.png'
 
 export default function Search(){
     return (
-        <div>
+        <div class="search">
             <img src={seachIcon}/>
         </div>
     );

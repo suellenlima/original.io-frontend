@@ -1,8 +1,8 @@
 import React from 'react';
 import './Panel.css';
 import Menu from './../menu/Menu';
-import Search from './../search/Search'
-
+import Search from './../search/Search';
+import Bag from './../bag/Bag';
 
 export default function Panel(){
     return (
@@ -18,6 +18,7 @@ export default function Panel(){
             </div>
             <Menu/>
             <Search/>
+            <Bag/>
         </div>
     );
 }
