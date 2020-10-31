@@ -1,0 +1,17 @@
+.options{
+    width: 754px;
+    height: 100%;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    place-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.option{
+    padding-left: 25px;
+    padding-right: 25px;
+}
